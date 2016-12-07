@@ -1,0 +1,45 @@
+.profile-border{
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 50%;
+}
+.smaller-image{
+  width: 150px;
+}
+
+.logo{
+  display: inline-flex;
+  background: url('images/icons.png') no-repeat -352px 0;
+	width: 351px;
+	height: 70px;
+}
+input{
+  text-align: center;
+  display: inline-flex;
+}
+.explore{
+  display: inline-flex;
+  background: url('images/icons.png') no-repeat -654px -450px;
+	width: 44px;
+	height: 44px;
+
+}
+
+.heart{
+  display: inline-flex;
+  background: url('images/icons.png') no-repeat -454px -453px;
+	width: 44px;
+	height: 38px;
+}
+
+.profile-icon{
+  display: inline-flex;
+  background: url('images/icons.png') no-repeat -254px -451px;
+	width: 44px;
+	height: 42px;
+}
+.three-dots{
+  background: url('images/icons.png') no-repeat -133px -391px;
+	width: 46px;
+	height: 10px;
+}
