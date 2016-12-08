@@ -6,7 +6,8 @@
 .smaller-image{
   width: 150px;
   height: 150px;
-  margin-left: 150px;
+  margin-left: 75px;
+
 }
 
 .logo{
@@ -26,7 +27,7 @@
   padding-right:100px;
   padding-bottom:35px;
   padding-left:100px;
-  
+
 
 }
 .explore{
@@ -65,17 +66,27 @@
   padding-left:50px;
   margin-left: 70px;
 }
+.username{
 
+}
+.following-button{
+
+}
+.arrow{
+
+}
 .three-dots{
   background: url('/images/icons.png') no-repeat -133px -391px;
 	width: 46px;
 	height: 10px;
+  margin-top: 38px;
   vertical-align: bottom;
+  margin-left: 10px;
 }
 
 .middle-section{
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 35px;
   justify-content: space-around;
   flex-direction: row;
   display: flex;
@@ -87,6 +98,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   vertical-align: baseline;
+  margin-right: 18px;
 }
 
 .right-section{
@@ -101,6 +113,7 @@
   width: 500px;
   height: 100px;
   display: flex;
+  margin-bottom: 0px;
 
 }
 
@@ -124,8 +137,8 @@
 }
 
 .button{
-  margin: 30px 30px;
-  background-color: #4CAF50;
+  margin: 28px 3px 28px ;
+  background-color: #6ED56E;
   border-radius: 7px;
   color: white;
   text-align: center;
