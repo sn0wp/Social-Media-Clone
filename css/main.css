@@ -12,10 +12,20 @@
   background: url('/images/icons.png') no-repeat -352px 0;
 	width: 351px;
 	height: 70px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
-input{
+.input{
   text-align: center;
   display: inline-flex;
+  padding-top:45px;
+  padding-right:100px;
+  padding-bottom:35px;
+  padding-left:100px;
+  
+
 }
 .explore{
   display: inline-flex;
@@ -38,6 +48,22 @@ input{
 	width: 44px;
 	height: 42px;
 }
+.top-section{
+  display: inline-flex;
+  justify-content: center;
+
+}
+.three-buttons{
+  display: inline-flex;
+  justify-content: space-around;
+  width: 200px;
+  padding-top:35px;
+  padding-right:0px;
+  padding-bottom:25px;
+  padding-left:50px;
+  margin-left: 70px;
+}
+
 .three-dots{
   background: url('/images/icons.png') no-repeat -133px -391px;
 	width: 46px;
