@@ -4,7 +4,7 @@
   border-radius: 50%;
 }
 .smaller-image{
-  width: 150px;
+  width: 170px;
 }
 
 .logo{
@@ -19,7 +19,7 @@ input{
 }
 .explore{
   display: inline-flex;
-  background: url('/images/icons.png') no-repeat -654px -450px;
+  background: url('/idfhssfghmages/icons.png') no-repeat -654px -450px;
 	width: 44px;
 	height: 44px;
 
@@ -44,11 +44,38 @@ input{
 	height: 10px;
 }
 
+.middle-section{
+  justify-content: space-around;
+  flex-direction: row;
+  display: flex;
+
+}
+
+.username-text{
+  font-weight: 300;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+.right-section{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 200px;
+}
+
 .following{
-  display: inline-flex;
+width: 600px;
+height: 100px;
+display: flex;
+vertical-align: baseline;
 }
 
 .posts-followers-following {
+  justify-content: space-between;
+  width: 400px;
   display: inline-flex;
   color: #262626;
 }
@@ -63,11 +90,10 @@ input{
 }
 
 .button{
-  background-color: #4CAF50; /* Green */
-  border: none;
+  margin: 30px 30px;
+  background-color: #4CAF50;
   border-radius: 7px;
   color: white;
-  padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline;
