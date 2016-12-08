@@ -4,7 +4,9 @@
   border-radius: 50%;
 }
 .smaller-image{
-  width: 170px;
+  width: 150px;
+  height: 150px;
+  margin-left: 150px;
 }
 
 .logo{
@@ -41,14 +43,16 @@ input{
 .three-dots{
   background: url('/images/icons.png') no-repeat -133px -391px;
 	width: 46px;
-	height: 10px;
+	height: 44px;
+  vertical-align: middle;
 }
 
 .middle-section{
+  padding-top: 50px;
+  padding-bottom: 50px;
   justify-content: space-around;
   flex-direction: row;
   display: flex;
-
 }
 
 .username-text{
@@ -64,13 +68,14 @@ input{
   flex-direction: column;
   width: 600px;
   height: 200px;
+  vertical-align: baseline;
 }
 
 .following{
-width: 600px;
-height: 100px;
-display: flex;
-vertical-align: baseline;
+  width: 500px;
+  height: 100px;
+  display: flex;
+
 }
 
 .posts-followers-following {
@@ -81,12 +86,15 @@ vertical-align: baseline;
 }
 
 .bio {
+  font-size: 17px;
+  line-height: 24px;
+  width: 500px;
   margin: 0;
   padding: 0;
   border: 0;
   font: inherit;
-  vertical-align: baseline;
-  display: flex;
+  display: block;
+
 }
 
 .button{
