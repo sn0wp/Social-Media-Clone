@@ -5,6 +5,8 @@
 }
 .smaller-image{
   width: 150px;
+  height: 150px;
+  margin-left: 150px;
 }
 
 .logo{
@@ -68,32 +70,64 @@
   background: url('/images/icons.png') no-repeat -133px -391px;
 	width: 46px;
 	height: 10px;
+  vertical-align: bottom;
+}
+
+.middle-section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-around;
+  flex-direction: row;
+  display: flex;
+}
+
+.username-text{
+  font-weight: 300;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+.right-section{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 200px;
+  vertical-align: baseline;
 }
 
 .following{
-  display: inline-flex;
+  width: 500px;
+  height: 100px;
+  display: flex;
+
 }
 
 .posts-followers-following {
+  justify-content: space-between;
+  width: 400px;
   display: inline-flex;
   color: #262626;
 }
 
 .bio {
+  font-size: 17px;
+  line-height: 24px;
+  width: 500px;
   margin: 0;
   padding: 0;
   border: 0;
   font: inherit;
-  vertical-align: baseline;
-  display: flex;
+  display: block;
+
 }
 
 .button{
-  background-color: #4CAF50; /* Green */
-  border: none;
+  margin: 30px 30px;
+  background-color: #4CAF50;
   border-radius: 7px;
   color: white;
-  padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline;
