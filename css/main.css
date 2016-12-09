@@ -22,13 +22,21 @@
   margin-right: 20px;
 
 }
-.input{
+
+
+input {
+  background-color: #f9f7f9;
   text-align: center;
+}
+
+.input{
+
   display: inline-flex;
   padding-top:30px;
   padding-right:100px;
   padding-left:200px;
   height: 55px;
+
 }
 .explore{
   display: inline-flex;
