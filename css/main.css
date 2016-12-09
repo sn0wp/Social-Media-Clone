@@ -12,44 +12,47 @@
 
 .logo{
   display: inline-flex;
-  background: url('/images/icons.png') no-repeat -352px 0;
-	width: 351px;
-	height: 70px;
-  margin-left: 20px;
+  background: url('/images/icons.png') ;
+  background-repeat: no-repeat;
+  background-position: -177px 0;
+  height: 35px;
+  width: 176px;
+  margin-left: 35px;
   margin-top: 20px;
   margin-right: 20px;
-  margin-bottom: 20px;
+
 }
 .input{
   text-align: center;
   display: inline-flex;
-  padding-top:45px;
+  padding-top:30px;
   padding-right:100px;
-  padding-bottom:35px;
-  padding-left:100px;
-
-
+  padding-left:200px;
+  height: 55px;
 }
 .explore{
   display: inline-flex;
-  background: url('/images/icons.png') no-repeat -654px -450px;
-	width: 44px;
-	height: 44px;
+  background: url('/images/icons.png');
+  background-position: 0 -279px;
+  height: 24px;
+  width: 24px;
 
 }
 
 .heart{
   display: inline-flex;
-  background: url('/images/icons.png') no-repeat -454px -453px;
-	width: 44px;
-	height: 38px;
+  background: url('/images/icons.png');
+  background-position: -181px -229px;
+  height: 24px;
+  width: 24px;
 }
 
 .profile-icon{
   display: inline-flex;
-  background: url('/images/icons.png') no-repeat -254px -451px;
-	width: 44px;
-	height: 42px;
+  background: url('/images/icons.png');
+  background-position: -302px -180px;
+  height: 24px;
+  width: 24px;
 }
 .top-section{
   display: inline-flex;
@@ -66,21 +69,19 @@
   padding-left:50px;
   margin-left: 70px;
 }
-.username{
 
+.everything-but-header {
+  background-color: #f9f7f9;
 }
-.following-button{
 
-}
-.arrow{
 
-}
 .three-dots{
-  background: url('/images/icons.png') no-repeat -133px -391px;
-	width: 46px;
-	height: 10px;
-  margin-top: 38px;
-  vertical-align: bottom;
+  background: url('/images/icons.png') ;
+  background-position: -308px -37px;
+  height: 44px;
+  width: 44px;
+  margin-top: 20px;
+
   margin-left: 10px;
 }
 
@@ -138,7 +139,7 @@
 
 .button{
   margin: 28px 3px 28px ;
-  background-color: #6ED56E;
+  background-color: #71bf51;
   border-radius: 7px;
   color: white;
   text-align: center;
