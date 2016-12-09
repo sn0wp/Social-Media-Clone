@@ -25,19 +25,39 @@
 
 
 input {
-  background-color: #f9f7f9;
+  background-color: #6767FF;
   text-align: center;
+  height: 10px
 }
 
-.input{
-
-  display: inline-flex;
-  padding-top:30px;
-  padding-right:100px;
-  padding-left:200px;
-  height: 55px;
-
+.search-bar{
+  padding-left: 200px;
+  padding-top: 25px;
+  padding-right: 100px;
 }
+
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  padding-left: 70px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  40px; }
+.right-addon input { padding-right: 40px; }
+
+
 .explore{
   display: inline-flex;
   background: url('/images/icons.png');
