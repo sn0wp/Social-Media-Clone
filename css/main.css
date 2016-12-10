@@ -1,177 +1,211 @@
-.profile-border{
-  border-width: 0px;
-  border-style: solid;
-  border-radius: 50%;
-}
-.smaller-image{
-  width: 150px;
-  height: 150px;
-  margin-left: 75px;
-
+.profile-border {
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 50%;
 }
 
-.logo{
-  display: inline-flex;
-  background: url('/images/icons.png') ;
-  background-repeat: no-repeat;
-  background-position: -177px 0;
-  height: 35px;
-  width: 176px;
-  margin-left: 35px;
-  margin-top: 20px;
-  margin-right: 20px;
-
+.smaller-image {
+    width: 150px;
+    height: 150px;
+    margin-left: 75px;
 }
 
+#logo {
+    display: inline-flex;
+    background: url('/images/icons.png');
+    background-repeat: no-repeat;
+    background-position: -177px 0;
+    height: 35px;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
 
 input {
-  background-color: #6767FF;
-  text-align: center;
-  height: 10px
+    background-color: #6767FF;
+    text-align: center;
+    height: 10px;
+    margin-left: 50px;
 }
 
-.search-bar{
-  padding-left: 200px;
-  padding-top: 25px;
-  padding-right: 100px;
+.search-bar {
+    padding-bottom: 30px;
+    padding-right: 8px;
 }
 
-/* enable absolute positioning */
+.form-control {
+    margin-left: 0px;
+}
+
 .inner-addon {
     position: relative;
 }
 
-/* style icon */
 .inner-addon .glyphicon {
-  position: absolute;
-  padding: 10px;
-  padding-left: 70px;
-  pointer-events: none;
+    position: absolute;
+    padding: 10px;
+    padding-left: 50px;
+    pointer-events: none;
 }
 
-/* align icon */
-.left-addon .glyphicon  { left:  0px;}
-.right-addon .glyphicon { right: 0px;}
-
-/* add padding  */
-.left-addon input  { padding-left:  40px; }
-.right-addon input { padding-right: 40px; }
-
-
-.explore{
-  display: inline-flex;
-  background: url('/images/icons.png');
-  background-position: 0 -279px;
-  height: 24px;
-  width: 24px;
-
+.left-addon .glyphicon {
+    left: 0px;
 }
 
-.heart{
-  display: inline-flex;
-  background: url('/images/icons.png');
-  background-position: -181px -229px;
-  height: 24px;
-  width: 24px;
+.right-addon .glyphicon {
+    right: 0px;
 }
 
-.profile-icon{
-  display: inline-flex;
-  background: url('/images/icons.png');
-  background-position: -302px -180px;
-  height: 24px;
-  width: 24px;
+.left-addon input {
+    padding-left: 40px;
 }
-.top-section{
-  display: inline-flex;
-  justify-content: center;
 
+#explore {
+    display: inline-flex;
+    background: url('/images/icons.png');
+    background-position: 0 -279px;
+    height: 24px;
+    width: 24px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 15px;
 }
-.three-buttons{
-  display: inline-flex;
-  justify-content: space-around;
-  width: 200px;
-  padding-top:35px;
-  padding-right:0px;
-  padding-bottom:25px;
-  padding-left:50px;
-  margin-left: 70px;
+
+.heart {
+    display: inline-flex;
+    background: url('/images/icons.png');
+    background-position: -181px -229px;
+    height: 24px;
+    width: 24px;
+    margin-right: 20px;
+}
+
+#profile-icon {
+    display: inline-flex;
+    background: url('/images/icons.png');
+    background-position: -302px -180px;
+    height: 24px;
+    width: 24px;
+}
+
+.three-buttons {
+    display: inline-flex;
+    padding-left: 225px;
 }
 
 .everything-but-header {
-  background-color: #f9f7f9;
+    background-color: #f9f7f9;
 }
 
-
-.three-dots{
-  background: url('/images/icons.png') ;
-  background-position: -308px -37px;
-  height: 44px;
-  width: 44px;
-  margin-top: 20px;
-
-  margin-left: 10px;
+.three-dots {
+    background: url('/images/icons.png');
+    background-position: -308px -37px;
+    height: 44px;
+    width: 44px;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
-.middle-section{
-  padding-top: 25px;
-  padding-bottom: 35px;
-  justify-content: space-around;
-  flex-direction: row;
-  display: flex;
+.middle-section {
+    padding-top: 25px;
+    padding-bottom: 35px;
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
 }
 
-.username-text{
-  font-weight: 300;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  vertical-align: baseline;
-  margin-right: 18px;
+.username-text {
+    font-weight: 300;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: baseline;
+    margin-right: 18px;
 }
 
-.right-section{
-  display: flex;
-  flex-direction: column;
-  width: 600px;
-  height: 200px;
-  vertical-align: baseline;
+.right-section {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 200px;
+    vertical-align: baseline;
 }
 
-.following{
-  width: 500px;
-  height: 100px;
-  display: flex;
-  margin-bottom: 0px;
-
+.following {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    margin-bottom: 0px;
 }
 
 .posts-followers-following {
-  justify-content: space-between;
-  width: 400px;
-  display: inline-flex;
-  color: #262626;
+    justify-content: space-between;
+    width: 400px;
+    display: inline-flex;
+    color: #262626;
 }
 
 .bio {
-  font-size: 17px;
-  line-height: 24px;
-  width: 500px;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  display: block;
-
+    font-size: 17px;
+    line-height: 24px;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    display: block;
 }
 
-.button{
-  margin: 28px 3px 28px ;
-  background-color: #71bf51;
-  border-radius: 7px;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline;
-  font-size: 13px;
+.button {
+    margin: 28px 3px 28px;
+    background-color: #71bf51;
+    border-radius: 4px;
+    border-width: 0px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 13px;
+}
+
+.photos-row {
+    white-space: nowrap;
+    font-size: 0;
+}
+
+.photos-row>img {
+    display: inline-block;
+    margin-right: 10px;
+    width: 32.5%;
+    margin-bottom: 10px;
+}
+
+.photos-row>img:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 730px) {
+    .photos-row:first-child {
+        margin-bottom: 3px;
+    }
+    .photos-row>img {
+        margin-right: 3px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .photos-row div {
+        margin: 0;
+    }
+    .photos-row {
+        padding: 0;
+    }
+}
+
+.top-section>div {
+    display: inline-flex;
+    justify-content: space-around;
+    color: grey;
+    width: 32%;
+    padding-bottom: 10px;
 }
